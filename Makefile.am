@@ -124,7 +124,10 @@ $(info PThread = $(PTHREAD_LIBS))
   libopensmile_la_LIBADD = $(SMILE_LIBS)
   libopensmile_la_LDFLAGS = --no-undefined
 
-
+  openEarincludedir = $(includedir)/ros_open_ear
+  openEarinclude_HEADERS = \
+  src/*.hpp \
+  src/*.h
 # endif 
 
 
